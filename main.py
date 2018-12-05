@@ -523,11 +523,8 @@ def test_disconnect():
 
 @app.route('/temp/<path:filename>')
 def downloadFile(filename):
-    # path = "temp/ebook_20181129202707996962.epub"
     path = 'temp/' + filename
     return send_file(path, as_attachment=True)
-
-
 
 
 
