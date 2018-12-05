@@ -1,0 +1,59 @@
+#clearurls, #addurls {
+    margin-top: 1em;
+}
+
+.js-remove{
+    font-weight: bold
+}
+
+.ply-ok, .ply-cancel {
+    background-color: #2196F3;
+    box-shadow: none;
+    border-radius: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.ply-header {
+    background-color: #2196F3;
+    color: white;
+}
+
+.ply-layer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 480px;
+}
+
+.log-panel {
+    height: 12em;
+}
+
+#urls_input{
+    height: 12em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 4px 0;
+}
+
+#lan{
+    width: 95%;
+    height: 40px;
+}
+
+.color{
+    width: 15%;
+    height: 40px;
+    padding: 1px;
+}
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: searchfield-cancel-button;
+}
+
+#popup01:target{
+    animation: popup 0.7s;
+    transition: opacity 500ms;
+  }
